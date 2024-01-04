@@ -3,11 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/";
 import NavBar from "./components/NavBar";
 import Login from "./pages/Login/";
-import { AuthProvider } from "./context/AuthContext";
+import notFound from './pages/notFound';
 import ProtectedRoute from "./routes/ProtectedRoute";
-import Register from "./pages/Register";
-import Admin from "./pages/Admin";
-import AddProduct from "./pages/AddProduct";
+
 
 function App() {
   return (
